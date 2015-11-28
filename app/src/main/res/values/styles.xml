@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <!--<style name="myRatingBar" parent="@android:style/Widget.RatingBar">-->
+        <!--<item name="android:progressDrawable">@drawable/my_ratingbar_full</item>-->
+        <!--<item name="android:indeterminateDrawable">@drawable/my_ratingbar_full</item>-->
+    <!--</style>-->
+</resources>

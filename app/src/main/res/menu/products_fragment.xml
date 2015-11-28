@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/action_asc" android:title="ASC"-->
+        <!--android:orderInCategory="100" app:showAsAction="never" />-->
+    <!--<item android:id="@+id/action_desc" android:title="DESC"-->
+        <!--android:orderInCategory="101" app:showAsAction="never" />-->
+    <item
+        android:icon="@drawable/view_list"
+        android:title="Sort By"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/menuSortPrice"
+                android:title="Sort by Price" />
+            <item
+                android:id="@+id/menuSortRating"
+                android:title="Sort by Rating" />
+        </menu>
+    </item>
+</menu>
